@@ -5,6 +5,22 @@
 <title>Insert title here</title>
 </head>
 <body>
-test
+testing...
 </body>
+
+<script type="text/javascript" src="my.js"></script>
+<script type="text/javascript">
+	
+var setmessage = function(message) {
+	return function(name) {
+		return message = " " + name;
+	}
+}
+
+var m = setmessage("hello");
+console.log(m("È«±æµ¿"));
+console.log(m("ÀÌ¸ù·æ"));
+console.log(m("¼ºÃáÇâ"));
+
+</script>
 </html>
